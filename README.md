@@ -11,10 +11,9 @@ Unlike you, it doesn't forget and the items you chose the previous day will alre
 I am using local storage without the database subscription!
 
 # Screenshots
-Main Screen | Holidays Screen
-![image](https://github.com/nancyadam24/Packito/assets/125753878/98d83efd-bea5-41e7-90fb-30704069ea41) | ![image](https://github.com/nancyadam24/Packito/assets/125753878/e1e40e5b-878c-440e-85ac-713a606340fe)
-Info Screen |
-![image](https://github.com/nancyadam24/Packito/assets/125753878/0c98df15-4bd7-4922-9485-303c69a5fa48)
+| Main Screen | Holidays Screen | Info Screen |
+|-------------|-----------------|-------------|
+| ![Main Screen](https://github.com/nancyadam24/Packito/assets/125753878/98d83efd-bea5-41e7-90fb-30704069ea41) | ![Holidays Screen](https://github.com/nancyadam24/Packito/assets/125753878/e1e40e5b-878c-440e-85ac-713a606340fe) | ![Info Screen](https://github.com/nancyadam24/Packito/assets/125753878/0c98df15-4bd7-4922-9485-303c69a5fa48) |
 
 
 
