@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Info">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="500dp"
+        android:layout_height="900dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.258"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.739"
+        app:srcCompat="@drawable/back" />
+
+
+    <ImageView
+        android:id="@+id/back_to_front"
+        android:layout_width="550dp"
+        android:layout_height="1000dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/front_for_back2"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/backtostart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/roundcorner"
+        app:layout_constraintBottom_toBottomOf="@+id/infoImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/back2_" />
+
+    <ImageView
+        android:id="@+id/infoImage"
+        android:layout_width="384dp"
+        android:layout_height="178dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.073"
+        app:srcCompat="@drawable/info" />
+
+    <TextView
+        android:id="@+id/made"
+        android:layout_width="228dp"
+        android:layout_height="18dp"
+        android:text="This context made by Nancy Adam."
+        android:textSize="12sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/plaisio"
+        android:layout_width="394dp"
+        android:layout_height="543dp"
+        android:layout_marginBottom="84dp"
+        app:layout_constraintBottom_toTopOf="@+id/made"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/plaisio" />
+
+    <TextView
+        android:id="@+id/textInfo"
+        android:layout_width="334dp"
+        android:layout_height="336dp"
+        android:layout_marginTop="40dp"
+        android:text="Καλώς ήρθατε στο Packito! Είναι μία εφαρμογή η οποία σας διευκολύνει να έχετε μια ήδη έτοιμη λίστα με τα αντικείμενα που θέλετε να πάρετε σε κάθε περίπτωση. Είτε αυτό θα είναι ένα ταξίδι ή μια μετακόμιση αντίστοιχα. Το πιο ενδιαφέρον όμως είναι ότι η κάθε περίπτωση που θα επιλέξετε είναι αυτούσια και οι ενέργειες που κάνετε αφορούν και μόνο τη συγκεκριμένη περίπτωση. Εκτός από αυτό,σας διευκολύνει και στην περίπτωση που θέλετε να πάρετε κάποια αντικείμενα την επόμενη μέρα. Τι κάνει για αυτό η εφαρμογή; Σε αντίθεση με εσάς δεν ξεχνά και τα αντικείμενα που διαλέξατε την προηγούμενη μέρα θα τα έχει ήδη αποθηκευμένα με αποτέλεσμα να μην ξεχνάτε τίποτα. Μόνο σε περίπτωση εκκαθάρισης τα δεδομένa της λίστας διαγράφονται."
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/plaisio"
+        app:layout_constraintEnd_toEndOf="@+id/plaisio"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toStartOf="@+id/plaisio"
+        app:layout_constraintTop_toBottomOf="@+id/infoImage"
+        app:layout_constraintVertical_bias="0.457" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
