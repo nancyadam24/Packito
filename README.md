@@ -1,7 +1,7 @@
 # Packito
 My complete android application which is related to lists of things that one can get in any case.
 
-Installation
+# Installation
 Install by importing this project over to Android Studio
 
 # Description
